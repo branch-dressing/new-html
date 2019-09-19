@@ -1,0 +1,23 @@
+
+.author {
+    color: gray
+}
+
+h3 {
+    color: red;
+    border: solid 2px blue
+}
+
+p {
+   font-size: 14px;
+}
+
+li {
+    background-color: whitesmoke
+}
+
+aside {
+    float: left;
+    margin: 10px;
+    justify-content: left
+}

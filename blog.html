@@ -6,34 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Book blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js"></script>
 </head>
 <body>
-    <style>
-        .author {
-            color: gray
-        }
-
-        h3 {
-            color: red;
-            border: solid 2px blue
-        }
-
-        p {
-           font-size: 14px;
-        }
-
-        li {
-            background-color: whitesmoke
-        }
-
-        aside {
-            float: left;
-            margin: 10px;
-            justify-content: left
-        }
-
-
-    </style>
     <header>
         <h1>A book blog</h1>
         <img src="http://place-puppy.com/50x50">
@@ -61,6 +37,12 @@
     
 
         </article>
+
+        <button onclick="showAlert()">Click me!</button>
+
+        <label>
+            Search: <input oninput="logHello()">
+        </label>
 
         <aside>
                 <h3>Book of the day:</h3>
